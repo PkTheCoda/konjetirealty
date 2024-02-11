@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import logo from '../Images/klogo.png'
 
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '#about' },
-  { name: 'My Work', href: '#work' },
-  { name: 'Skills/Tools', href: '#tools' },
+  { name: 'Locations', href: '#locations' },
+  { name: 'Contact', href: '#contact' },
 ]
 
 export default function Navbar() {
@@ -31,7 +32,7 @@ export default function Navbar() {
                 <span className="sr-only">Your Company</span>
                 <img
                     className="h-8 w-auto"
-                    src=""
+                    src={logo}
                     alt=""
                   />
               </a>
@@ -58,7 +59,7 @@ export default function Navbar() {
                 </a>
               ))}
             </div>
-            <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+            {/* <div className="hidden lg:flex lg:flex-1 lg:justify-end">
               <a 
                 href="/hire" 
                 target='_blank'
@@ -66,7 +67,7 @@ export default function Navbar() {
               >
                 Hire Me <span aria-hidden="true">&rarr;</span>
               </a>
-            </div>
+            </div> */}
           </nav>
           <Dialog as="div" className="lg:hidden font-outfit" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
             <div className="fixed inset-0 z-50" />
@@ -76,7 +77,7 @@ export default function Navbar() {
                   <span className="sr-only">Your Company</span>
                   <img
                     className="h-8 w-auto"
-                    src=""
+                    src={logo}
                     alt=""
                   />
                 </a>

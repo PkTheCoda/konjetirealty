@@ -15,24 +15,24 @@ function App() {
   return (
     <>
     <Navbar />
-    <div className="h-max flex">
-      <div className="w-5/12 flex flex-col justify-center pl-10 pr-[4rem] gap-y-5">
-        <h4 className='font-caveat text-4xl'>
+    <div className="h-max flex flex-col xl:flex-row">
+      <div className="xl:py-0 py-10 w-full xl:w-5/12 flex flex-col justify-center pl-10 pr-[4rem] gap-y-5">
+        <h4 className='font-caveat text-2xl md:text-3xl lg:text-4xl'>
           View the Extraordinary
         </h4>
-        <h1 className='font-poppins text-6xl'>
+        <h1 className='font-poppins text-3xl md:text-4xl lg:text-6xl'>
           Homes in Richmond, Virginia
         </h1>
-        <p className='text-lg tracking-wide font-serif text-slate-800 leading-loose'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cupiditate, dolorem suscipit repellat dolorum maiores aut quae distinctio provident. Ut, illo id? Saepe totam veniam nisi laboriosam, sit cupiditate molestias?
+        <p className='text-lg tracking-wide font-outfit font-light text-slate-800 leading-loose'>
+        Embark on Your Dream Home Journey in Richmond, Virginia! Our expertly curated selection showcases the finest residences, ensuring you find the home of your dreams. With our dedicated team, your path to exceptional living begins here. 
         </p>
-        <button className='bg-slate-200 text-start w-max px-4 py-2 rounded-md font-poppins font-light'>
-          About Raghu
-        </button>
+        <a href='mailto:raghukonjeti.realtor@gmail.com' className='bg-slate-200 hover:bg-slate-300 transition transform duration-300 text-start w-max px-4 py-2 rounded-md font-outfit text-lg'>
+          Contact Us
+        </a>
       </div>
-      <div className="w-7/12 relative">
+      <div className="w-full xl:w-7/12 relative">
         <img src={suburb1} alt="Image of a nice suburb" className='w-full opacity-80'/>
-        <img src={suburb2} alt="Image of a nice suburb" className='opacity-100 top-40 -skew-y-2 absolute h-2/4 rounded-xl shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] -left-10'/>
+        <img src={suburb2} alt="Image of a nice suburb" className='hidden xl:block opacity-100 top-40 absolute h-2/4 rounded-xl shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] -left-10'/>
       </div>
     </div>
     <About />

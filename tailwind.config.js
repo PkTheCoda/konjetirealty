@@ -10,6 +10,7 @@ export default {
         'outfit': ['Outfit', 'sans-serif'],
         'poppins': ['Poppins', 'sans-serif'],
         'caveat': ['Caveat', 'sans-serif'],
+        'protest': ['Protest', 'sans-serif']
       }
     },
   },
