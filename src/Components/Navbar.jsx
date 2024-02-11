@@ -104,14 +104,14 @@ export default function Navbar() {
                       </a>
                     ))}
                   </div>
-                  <div className="py-6">
+                  {/* <div className="py-6">
                     <a
                       href="/hire"
                       className="-mx-3 block rounded-lg px-3 py-2.5 text-base  leading-7 text-gray-900 hover:bg-gray-50"
                     >
                       Hire Me 
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </Dialog.Panel>
