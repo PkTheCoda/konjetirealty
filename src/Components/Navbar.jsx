@@ -52,7 +52,7 @@ export default function Navbar() {
                 <a 
                   key={item.name} 
                   href={item.href} 
-                  className="text-xl leading-6 text-black font-medium font-outfit transition transform hover:scale-110"
+                  className="text-lg leading-6 text-black font-light font-outfit transition transform hover:scale-110"
                   onClick={(event) => handleNavigationClick(event, item.href)}
                 >
                   {item.name}
