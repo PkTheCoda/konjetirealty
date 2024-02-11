@@ -19,6 +19,7 @@ const Footer = () => {
                         {/* <div class="px-5 py-2"><a href="#">Twitter</a></div> */}
                     </nav>
                     <p class="mt-7 text-base text-blue-600">© 2023 KonjetiRealty</p>
+                    <p class="mt-7 text-base text-blue-600">Built by Raghu's son, <a href="https://pranavk.vercel.app" target='_blank' className='text-sky-600 underline'>Pranav Konjeti</a></p>
                 </div>
             </div>
         </footer>

@@ -28,7 +28,7 @@ const About = () => {
                 </div>
             </div>
             <div className="w-full lg:w-1/2 flex flex-col gap-y-4 lg:items-start items-center">
-                <p className="w-full lg:w-2/3 lg:px-0 px-10 text-base text-center lg:text-start lg:text-lg font-outfit leading-loose text-slate-800">
+                <p className="w-full lg:w-2/3 lg:px-0 px-10 text-base text-center lg:text-start lg:text-lg font-outfit tracking-wide text-slate-800">
                     A proud Richmond resident for over a decade, Raghu Konjeti brings unparalleled local expertise to the real estate scene. With an in-depth understanding of Richmond and its surrounding areas, Raghu is your trusted guide to navigate the dynamic housing market. Whether you're on the hunt for your dream home or looking to maximize your property's value, Raghu's decade-long immersion in the Richmond community positions him as your dedicated ally in achieving your real estate goals. Let's make your real estate a worthful one.
                 </p>
                 <a href="mailto:raghukonjeti.realtor@gmail.com" class="px-5 font-outfit py-2.5 w-max relative rounded group overflow-hidden font-medium bg-blue-100 text-blue-600 inline-block">
