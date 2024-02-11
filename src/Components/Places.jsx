@@ -7,7 +7,7 @@ import modern3 from '../Images/modern3.jpg'
 const Places = () => {
   return (
     <div className="w-full flex flex-col items-between gap-y-10 py-20 relative" id='locations'>
-        <h1 className='text-4xl md:text-5xl lg:text-7xl font-light text-center font-outfit'>Where Our <span className="text-teal-600 underline font-medium">Magic Works</span></h1>
+        <h1 className='text-4xl md:text-5xl lg:text-7xl font-light text-center font-outfit px-4'>Where Our <span className="text-teal-600 underline font-medium">Magic Works</span></h1>
         <div className='flex flex-col gap-y-4 items-center'>
             <article class="w-11/12 lg:w-3/4 relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-80">
                 <img src={richmond} alt="University of Southern California" class="absolute inset-0 h-full w-full object-cover" />
