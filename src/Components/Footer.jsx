@@ -18,7 +18,7 @@ const Footer = () => {
                         <div class="px-5 py-2"><a href="mailto:raghukonjeti.realtor@gmail.com">Email</a></div>
                         {/* <div class="px-5 py-2"><a href="#">Twitter</a></div> */}
                     </nav>
-                    <p class="mt-7 text-base text-blue-600">© 2023 KonjetiRealty, LLC</p>
+                    <p class="mt-7 text-base text-blue-600">© 2023 KonjetiRealty</p>
                 </div>
             </div>
         </footer>
