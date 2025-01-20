@@ -11,7 +11,7 @@ const About = () => {
         <div className='flex lg:flex-row flex-col gap-x-40 justify-center items-center'>
             <div className="w-full lg:w-1/2 flex flex-col items-center pb-10 lg:pb-0 lg:items-end">
                 <div className='w-2/3 lg:w-1/2 flex flex-col gap-y-4'>
-                    <img src={dadpic} alt="Picture of Raghu!" className='w-full rounded-full shadow-lg'/>
+                    {/* <img src={dadpic} alt="Picture of Raghu!" className='w-full rounded-full shadow-lg'/> */}
                     <h2 className='text-center font-poppins text-4xl'>
                         Raghu Konjeti
                     </h2>
